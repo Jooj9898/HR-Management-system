@@ -17,3 +17,5 @@ This **Java-based Human Resource Management System (HRMS)** helps manage employe
 📩 Send **automated email notifications** to selected employees  
 💰 **Increase salaries** of employees earning below a set threshold  
 ⚙️ Process employee data dynamically using **filters and automation rules**  
+
+**THIS PROJECT IS NOT ENTIRELY FINISHED YET AND IS STILL IN PROGRESS**
