@@ -1,0 +1,14 @@
+The data pertain to employees of a company, one employee per row.
+
+The following attributes are listed for each employee:
+id - unique employee id (integer, integer, valid values > 0)
+firstName - employee's first first_name (string, any non-empty values are valid)
+surname - employee's surname (string, any non-empty values are valid)
+email - employee's email (string, any valid email is allowed)
+area - the domain in which the employee works (string, valid values: "admin", "business", "technical")
+isManager - indicates if the employee is a manager (boolean)
+managerId - the employee id of this employer's manager (integer, valid values >= 0)
+salary - employee's salary in thousands (integer)
+
+Note: Managers can either (1) manage non-managers, in which case they are called first-line managers, or (2) they can manage first-line managers, in which case they are called second-line. The managerId of second-line managers is set to 0, as they are not managed by an employee on the list.
+
